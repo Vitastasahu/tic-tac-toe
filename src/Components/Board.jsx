@@ -67,6 +67,7 @@ const Board = () => {
                 <Square onClick={() => handleClick(7)} value={state[7]}/>
                 <Square onClick={() => handleClick(8)} value={state[8]}/>
             </div> 
+            <button onClick={handleReset}>Restart</button>
             </>
         )}  
        </div> 
